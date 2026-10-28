@@ -1,9 +1,13 @@
 #include <stdio.h>
 int main() {
-int total = 10;
-for(int i=3; i<=3; i++) {
-total=total+(i*2);
+int count = 0;
+
+for (int i = 1; i <= 6; i++) {
+    if (i >= 4) {
+        count++;
+    }
 }
-printf("%d\n", total);
+
+printf("%d", count);
 return 0;
 }
